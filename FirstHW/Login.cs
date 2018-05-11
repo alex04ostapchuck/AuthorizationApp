@@ -23,5 +23,31 @@ namespace FirstHW
             this.Hide();
             start.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (Data.users.Exists(x => x.Login == textBox1.Text)) {
+                int index = Data.users.FindIndex(x => x.Login == textBox1.Text);
+                if(Data.users[index].Password == textBox2.Text)
+                {
+                    HomePage homePage = new HomePage();
+                    homePage.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    Error error = new Error();
+                    error.Show();
+                    this.Hide();
+                }
+            }
+            else
+            {
+                Error error = new Error();
+                error.Show();
+                this.Hide();
+            }
+
+        }
     }
 }

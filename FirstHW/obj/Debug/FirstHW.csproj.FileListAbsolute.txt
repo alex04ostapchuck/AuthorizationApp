@@ -10,3 +10,5 @@ D:\code(c#)\Course de la C#\App,Forms\FirstHW\FirstHW\obj\Debug\FirstHW.pdb
 D:\code(c#)\Course de la C#\App,Forms\FirstHW\FirstHW\obj\Debug\FirstHW.Login.resources
 D:\code(c#)\Course de la C#\App,Forms\FirstHW\FirstHW\obj\Debug\FirstHW.Registration.resources
 D:\code(c#)\Course de la C#\App,Forms\FirstHW\FirstHW\obj\Debug\FirstHW.Start.resources
+D:\code(c#)\Course de la C#\App,Forms\FirstHW\FirstHW\obj\Debug\FirstHW.Error.resources
+D:\code(c#)\Course de la C#\App,Forms\FirstHW\FirstHW\obj\Debug\FirstHW.HomePage.resources

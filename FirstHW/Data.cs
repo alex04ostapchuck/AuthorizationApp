@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace FirstHW
 {
-    static class Data
+    public static class Data
     {
-        static List<Users> users = new List<Users>();
+        public static List<Users> users = new List<Users>();
     }
 }
